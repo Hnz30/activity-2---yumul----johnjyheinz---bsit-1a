@@ -100,3 +100,46 @@ a{
     color: rgb(236, 65, 13);
 }
 
+#services{
+    display: flex;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+#services h2{
+    font-size: 34px;
+    text-align: center;
+    margin-top: -100px;
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
+}
+
+ul li{
+    display: flex;
+    margin: 17px;
+    margin-top: 50px;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    float: left;
+    height: 80px;
+    width: 90px;
+    background-color: white;
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 40px;
+    font-weight: 500;
+}
+
+li:hover{
+    box-shadow: 0px 0px 10px rgba(173, 173, 172, 0.732);
+}
+
+#s1{
+    background-color: rgb(236, 65, 13);
+}
